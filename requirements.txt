@@ -1,6 +1,35 @@
-# Technology stack inventory
-# For reference. Install project dependencies from each repository's package.json and pnpm-lock.yaml.
-# Sources: local main snapshots dev-devison (7380ce6) and consulting-agency (d864b39), plus the supplied screenshot.
+# Yahya Saadaoui - Technology Stack
+# Reference inventory. Each application manages its dependencies in its own repository.
+
+[Professional skills - payment systems and integration]
+Payments & Switching - PowerCARD, ISO 8583, BASE24, ATM / POS, Issuer & Acquirer Processing, Authorization & Reversals, Settlement & Reconciliation, Visa / Mastercard Integration
+Database & Event Streaming - Oracle SQL, PL/SQL, Oracle GoldenGate, CDC & Transactional Outbox, Apache Kafka, librdkafka, Avro, Schema Migrations
+Payment Security - HSM Integration, TR-31 Key Blocks, PIN Processing, MAC Validation, mTLS / MLE, SASL / Kerberos
+Backend & Integration - C / Pro*C, Java, Spring Boot / Integration, REST APIs, Python / FastAPI, C# / ASP.NET Core, EF Core
+Delivery & Testing - Git, Linux / Unix, Docker, Jenkins, GitHub Actions, CMake, Gradle / Maven, JUnit / Spock, Protocol Simulators
+Additional delivery tools - Unix shell scripting, Groovy, WebLogic, Jakarta, Angular Maker/Checker workflows
+
+[Selected public GitHub projects]
+Monetic AI Reversal - Python, FastAPI, React
+https://github.com/YahyaSaadaoui/monetic-ai-reversal
+Monetic AI Reconciliation - Python, FastAPI, React
+https://github.com/YahyaSaadaoui/monetic-ai-reconciliation
+OmniMemory - TypeScript, VS Code Extension API, SQLite, OpenAI APIs
+https://github.com/YahyaSaadaoui/OmniMemory
+IssueDesk - ASP.NET Core 9, EF Core, SQL Server, React, TypeScript
+https://github.com/YahyaSaadaoui/issue-tracking-system
+ExpensesTracker - Next.js, React, TypeScript, Supabase, Recharts
+https://github.com/YahyaSaadaoui/ExpensesTracker
+Agentic AI Frontend - Next.js, React, Vercel AI SDK, OpenAI APIs
+https://github.com/YahyaSaadaoui/AgenticAiFrontEnd
+Nettimer - Python, Playwright
+https://github.com/YahyaSaadaoui/Nettimer
+Portfolio - Next.js 14, React 18, TypeScript, Tailwind CSS 3, Framer Motion, EmailJS
+https://github.com/YahyaSaadaoui/myPortfolio
+
+[AI project stack review]
+# The sections below describe reviewed repositories and exploratory tools.
+# Sources: dev-devison (7380ce6), consulting-agency (d864b39), and the supplied screenshot.
 
 [Shared repository stack]
 TypeScript, Node.js, pnpm workspaces
