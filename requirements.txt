@@ -1,0 +1,45 @@
+# Technology stack inventory
+# For reference. Install project dependencies from each repository's package.json and pnpm-lock.yaml.
+# Sources: local main snapshots dev-devison (7380ce6) and consulting-agency (d864b39), plus the supplied screenshot.
+
+[Shared repository stack]
+TypeScript, Node.js, pnpm workspaces
+Next.js 15, React 19, assistant-ui, Vercel AI SDK 6
+Mastra, Mastra Studio, Mastra Memory, Mastra RAG, MCP, Mastra Observability
+SiliconFlow (primary reasoning provider), Anthropic (fallback), OpenAI (embeddings)
+Langfuse (LLM tracing and observability)
+Better Auth 1.6, SQLite (better-sqlite3), libSQL (@libsql/client)
+Zod, Playwright, tsup, tsx, Vitest, GitHub Actions
+Docker, Docker Compose
+
+[dev-devison]
+https://github.com/susalexart/dev-devison/tree/7380ce6
+TypeScript 6, Node.js >=22.12, pnpm 11.5.0
+Three.js, React Three Fiber, Drei (3D web UI)
+Drizzle ORM, Drizzle Kit (database schema and migrations)
+Forgejo 11 (self-hosted Git), Forgejo MCP (repository operations)
+Dokploy and @dokploy/sdk (deployment integration)
+Caddy 2 (reverse proxy and TLS)
+Langfuse v3 services backed by PostgreSQL 16, ClickHouse 24, Redis 7, and MinIO
+OpenTelemetry (tracing)
+Biome (linting and formatting)
+Project CLI and MCP packages for tool routing, vault access, and scoped filesystem access
+
+[consulting-agency]
+https://github.com/susalexart/consulting-agency/tree/d864b39
+TypeScript 5, Node.js >=20 in package.json, Node.js 22 in Docker, pnpm 9.0.0
+Firecrawl (web search and scraping), DuckDuckGo HTML (fallback search)
+Playwright (web browsing), pdf-parse (PDF extraction)
+Vitest V8 coverage
+Mastra citation-overlap and claim-faithfulness evaluators
+Documented shared deployment behind dev-devison's Caddy proxy with umbrella app sessions
+
+[Screenshot-only tools and references]
+Agno (Python AI agent framework)
+Grafana (observability dashboards)
+Prometheus (metrics collection and time-series storage)
+WAGate (WhatsApp session management, as labeled in the screenshot)
+Baileys (TypeScript WhatsApp Web library)
+AromaCloud ERP (visible application, implementation stack undetermined)
+Footnote LLM generation (search topic)
+RTL compatibility (search topic)
